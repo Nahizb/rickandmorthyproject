@@ -1,0 +1,43 @@
+/* Puedes añadir estilos adicionales aquí para el layout global o el contenedor principal */
+
+  body {
+    background: linear-gradient(to bottom, black, blue);
+    color: white; /* Para asegurar que el texto sea visible */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+  font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            background: linear-gradient(to right, black, red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            margin-top: 20px;}
+.nav-page {
+  display: flex;
+  justify-content: space-between; /* Distribuir elementos a los extremos */
+  align-items: center; /* Centrar verticalmente */
+  padding: 10px 20px;
+  background: black;
+  border-bottom: 1px solid #ddd; /* Línea inferior */
+}
+
+.nav-page h2,
+.nav-page button {
+  margin: 0;
+  font-size: 16px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
